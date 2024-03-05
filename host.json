@@ -6,6 +6,10 @@
     }
   },
   "logging": {
+    "fileLoggingMode": "always",
+    "logLevel": {
+      "WeatherDataIngestor": "Information"
+    },
     "applicationInsights": {
       "samplingSettings": {
         "isEnabled": true,
